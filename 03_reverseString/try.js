@@ -6,4 +6,5 @@ const reverseString = function(string) {
     }
    return newString;
 };
-module.exports = reverseString;
+
+console.log(reverseString('joshuamarc'))
