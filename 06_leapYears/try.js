@@ -4,10 +4,10 @@ const leapYears = function(year) {
     const notLeapYear = year % 100 === 0;
 
     if(leapYear && (!notLeapYear || anotherLeapYear)){
-        return true;
+        console.log('leap year');
     }else{
-        return false;
+        console.log('not leap year');
     }
-}
-// Do not edit below this line
-module.exports = leapYears;
+};
+
+console.log(leapYears(1600));
